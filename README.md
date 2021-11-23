@@ -10,4 +10,4 @@ Este proyecto es para aprender a manejar la conexión a las bases de datos
 
 2. Ingresar a la carpeta del proyecto
 3. ejecutar el comando 
-``composer update
+    composer update
