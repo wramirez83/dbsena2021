@@ -1,0 +1,23 @@
+{
+    "name": "wramirez83/pqrs",
+    "description": "Proyecto abierto para generar PQRS en el sector empresarial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilson Ramirez Zuluaga",
+            "email": "wilson.rz@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+           "App\\" : "app/",
+           "Config\\" : "config/",
+           "View\\" : "resource/",
+           "Base\\" : "src/"
+        }
+    }
+}
