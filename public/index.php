@@ -4,12 +4,12 @@ require_once('./../vendor/autoload.php');
 $dotenv = Dotenv\Dotenv::createImmutable( __DIR__ . '/../');
 $dotenv->load();
 
-
-
 use Base\DB;
+use Base\DBPOO;
 
-$db = new DB();
+$db = new DBPOO();
+echo $db->insert('pb', [
+    'msg' => 'Ahora estamos insertando porque si'
+]);
 
-$data = $db->query('pb');
-print_r($data);
 
